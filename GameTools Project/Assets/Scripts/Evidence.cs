@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Evidence : MonoBehaviour {
-
 
     public bool examined;
 
@@ -21,6 +21,6 @@ public class Evidence : MonoBehaviour {
 
         yield return new WaitForSeconds(3.0f);
         Destroy(gameObject);
-
+        GameObject.Find("passive_marker_man (1)").SendMessage("EvidenceCount");
     }
 }

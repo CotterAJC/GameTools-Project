@@ -27,6 +27,7 @@ public class Acuse : MonoBehaviour {
         if (acuse)
         {
             animator.SetTrigger("Acuse");
+            GameObject.Find("passive_marker_man (1)").SendMessage("Finnish");
         }
     }
 }
