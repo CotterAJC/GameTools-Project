@@ -1,0 +1,32 @@
+
+*******************************************************
+
+
+
+		Game Tools Assignment 2
+			READ ME
+
+
+
+*******************************************************
+
+			--------
+			Controls
+			--------
+
+Movement :			ARROW KEYS/'W''A''S''D'
+
+Pick up object :		'E'
+
+Acuse :				'Q'
+
+Fall over :			'F'
+
+
+			----------
+			Objectives
+			----------
+
+*Collect pieces of evidence (Question Marks '?')
+
+*Find and acuse the murderer
